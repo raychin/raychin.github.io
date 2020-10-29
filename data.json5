@@ -1,0 +1,116 @@
+{
+  // 页面title
+  title: "Ray - KingsRay",
+  // 社交链接
+  social: {
+    github: "https://gitee.com/KingsRay",
+    instagram: "http://instagram.com/shevok",
+    linkedin: "https://www.linkedin.com/in/%E8%95%BE-%E7%A7%A6-631405138/",
+  },
+  // banner页
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "KingRay",
+    desc: [
+      "KingRay",
+      "码农一枚",
+      "工作十余载",
+    ],
+  },
+  // 正文
+  // 不要修改各模块的 anchor.id
+  // 通过display控制模块是否展示
+  // 通过列表顺序控制模块展示顺序
+  modules: [
+    // 关于页
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "information",
+        subtitle: "about me",
+      },
+      content: {
+        name: "Ray",
+        desc: [
+          "你可以不聪明",
+          "但一定要有分寸感",
+          "知道边界在哪里",
+        ],
+        md: "鄙人Ray，生于湖北，苦读十二载，后求学于武汉~\
+        \n『**有韧性、抗压性强**』收获颇多~\
+        \nxxxxxxxxxxxxxxxxxxxxxx~\
+        \nxxxxxxxxxxxxxxxxxxxxxx~\
+        \nxxxxxxxxxxxxxxxxxxxxxx~",
+      },
+      // key - value 数量及内容完全自定义，链接自动识别
+      keys: {
+        "主页": "https://kingsray.gitee.io/",
+        "博客": "https://kingsray.gitee.io/"
+      },
+    },
+    // 履历
+    {
+      display: true,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "经历"
+      },
+      header: {
+        title: "experience",
+        subtitle: "my experience",
+      },
+      cards: [
+        {
+          title: "武大吉奥信息技术有限公司",
+          //subtitle: "2018-07 至 今",
+          md: "<!--**<u>高级开发工程师</u>**-->\
+          \n\
+          \n社会治理平台",
+        },
+        {
+          title: "湖北睛彩视讯科技有限公司",
+          //subtitle: "2012-02 至 2018-07",
+          md: "<!--**<u>高级工程师</u>**-->\
+          \n\
+          \n新媒体行业\
+          \n主要负责基于Android平台新媒体App项目开发及维护等工作\
+          \n同时使用python+selenium实现自动化手机应用操控功能语言\
+          \n研究基于c/c++的ar虚拟现实功能研究\
+          \n负责整体项目框架搭建及核心功能预研及实现\
+          \n负责相关技术解决方案和项目相关技术文档编写\
+          \n担任项目经理主导开发相关app开发"
+        },
+        {
+          title: "江苏润和软件股份有限公司",
+          //subtitle: "2011-07 至 2012-02",
+          md: "<!--**<u>嵌入式软件工程师</u>**-->\
+          \n\
+          \n凭借着对coding的一腔热情，一头扎进了猿类大军\
+          \n做为数码人，很感激数码在职场专业化成长上给予的空间",
+        },
+        {
+          title: "华中科技大学",
+          subtitle: "2006-09 至 2009-09",
+          md: "**<u>计算机科学与技术</u>**\
+          \n\
+          \n<!--**专业**计算机科学与技术-->\
+          \n\
+          \n求学\
+          \n计算机科学与技术\
+          \n软件人生",
+        },
+      ],
+    },
+    
+  ],
+}
