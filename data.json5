@@ -3,7 +3,8 @@
   title: "Ray - KingsRay",
   // 社交链接
   social: {
-    github: "https://gitee.com/KingsRay",
+    github: "https://github.com/raychin",
+    gitee: "https://gitee.com/KingsRay",
     instagram: "http://instagram.com/shevok",
     linkedin: "https://www.linkedin.com/in/%E8%95%BE-%E7%A7%A6-631405138/",
   },
@@ -45,7 +46,7 @@
           "但一定要有分寸感",
           "知道边界在哪里",
         ],
-        md: "鄙人Ray，生于湖北，苦读十二载，后求学于武汉~\
+        md: "我就是Ray~\
         \n『**有韧性、抗压性强**』收获颇多~\
         \nxxxxxxxxxxxxxxxxxxxxxx~\
         \nxxxxxxxxxxxxxxxxxxxxxx~\
@@ -100,7 +101,7 @@
         },
         {
           title: "华中科技大学",
-          subtitle: "2006-09 至 2009-09",
+          subtitle: "毕业于2009-09",
           md: "**<u>计算机科学与技术</u>**\
           \n\
           \n<!--**专业**计算机科学与技术-->\
