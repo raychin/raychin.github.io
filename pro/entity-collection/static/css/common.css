@@ -31,6 +31,10 @@ uni-page-body {
     user-select: text; */
 }
 
+uni-toast {
+	z-index: 999999 !important;
+}
+
 ul,
 ol {
 	list-style: none;
@@ -102,6 +106,36 @@ uni-page-head .uni-btn-icon {
 	color: #999;
 }
 
+.empty {
+    width: 100%;
+    padding-top: 200rpx;
+    color: #666666;
+    text-align: center;
+    font-size: 30rpx;
+}
+
+.empty-image {
+    height: 200rpx !important;
+    width: 200rpx !important;
+}
+
+.load-failed {
+    width: 100%;
+    text-align: center;
+    padding: 80rpx 0;
+}
+
+.load-failed-image-style {
+    width: 256rpx;
+    height: 256rpx;
+}
+
+.load-failed-text {
+    font-size: 30rpx;
+    color: #999999;
+    margin-top: -60rpx;
+}
+
 /*-----------地图相关样式开始------------------*/
 .map-my-canvas {
 	width: 100%;
@@ -117,11 +151,11 @@ uni-page-head .uni-btn-icon {
 
 .map_power_common {
 	position: absolute;
-	width: 80rpx;
-	height: 80rpx;
+	width: 32px;
+	height: 32px;
 	background-size: 100% 100%;
-	left: -40rpx;
-	top: -70rpx;
+	left: -20px;
+	top: -35px;
 	z-index: 90;
 }
 

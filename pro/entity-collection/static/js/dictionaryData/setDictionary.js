@@ -3271,7 +3271,7 @@ export const setDictionary = {
             "systemid": "18dee9095a5d4632bcc743a247115fa2",
             "dictId": "co_resident_marriage",
             "name": "未说明",
-            "value": "6",
+            "value": "9",
         }
     ],
     "root_gender": [
@@ -3285,7 +3285,7 @@ export const setDictionary = {
             "systemid": "0f8480b8ed404a2eb5e3a0403ce5ab1a",
             "dictId": "root_gender",
             "name": "女",
-            "value": "0",
+            "value": "2",
         }
     ],
     "co_rid_type2": [
@@ -4212,31 +4212,124 @@ export const setDictionary = {
             "value": "5",
         },
     ],
-    // 实体状态 add by ray on 2022/09/27
+    /**
+     * 实体状态 add by ray on 2022/09/27
+     * 实体状态修改 add by ray on 2023/03/29
+     *  */
     "co_entity_state": [
         {
             "systemid": "",
             "dictId": "co_entity_state",
-            "name": "已上报",
+            "name": "暂存",
             "value": "1",
         },
         {
             "systemid": "",
             "dictId": "co_entity_state",
-            "name": "已审批",
+            "name": "待修改",
             "value": "2",
         },
         {
             "systemid": "",
             "dictId": "co_entity_state",
-            "name": "已发布",
+            "name": "待审核",
             "value": "3",
         },
         {
             "systemid": "",
             "dictId": "co_entity_state",
-            "name": "已注销",
+            "name": "发布待审核",
             "value": "4",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_state",
+            "name": "已发布",
+            "value": "5",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_state",
+            "name": "注销待审核 ",
+            "value": "6",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_state",
+            "name": "注销",
+            "value": "7",
+        },
+    ],
+    // 管理范围空间类型 add by ray on 2023/03/24
+    "co_entity_manage_geo_type": [
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_type",
+            "name": "扇形",
+            "value": "fan",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_type",
+            "name": "圆形",
+            "value": "circle",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_type",
+            "name": "自定义",
+            "value": "polygon",
+        },
+    ],
+    // 管理范围朝向 add by ray on 2023/03/24
+    "co_entity_manage_geo_direction": [
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_direction",
+            "name": "东",
+            "value": "90",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_direction",
+            "name": "西",
+            "value": "270",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_direction",
+            "name": "南",
+            "value": "180",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_direction",
+            "name": "北",
+            "value": "0",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_direction",
+            "name": "东南",
+            "value": "130",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_direction",
+            "name": "西南",
+            "value": "225",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_direction",
+            "name": "东北",
+            "value": "45",
+        },
+        {
+            "systemid": "",
+            "dictId": "co_entity_manage_geo_direction",
+            "name": "西北",
+            "value": "315",
         },
     ],
 }
