@@ -55,8 +55,8 @@
       },
       // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        "主页": "https://kingsray.gitee.io/",
-        "博客": "https://weibo.com/rc3398/",
+        "主页": "https://kingsray.gitee.io",
+        "博客": "https://weibo.com/rc3398",
         "github": "https://github.com/raychin",
         "微信": "raychin24",
       },
@@ -75,11 +75,11 @@
       },
       cards: [
         {
-          title: "武大吉奥信息技术有限公司",
+          title: "吉奥时空信息技术有限公司",
           //subtitle: "2018-07 至 今",
           md: "<!--**<u>高级开发工程师</u>**-->\
           \n\
-          \n社会治理平台\
+          \n基于块数据城市治理平台、GIS\
           \n负责基于块数据服务支撑实现基层治理共建共治共享平台\
           \n编写相关需求文档及项目构建开发\
           \n采用ArcGis地图服务及MPChart实现深圳市南山区人、房、法人及事件等相关数据采集和统计功能",
@@ -117,6 +117,21 @@
           \n明德、厚学、求是、创新",
         },
       ],
+    },
+    // 博客页
+    {
+      display: true,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "博客",
+      },
+      header: {
+        title: "blog",
+        subtitle: "latest blog",
+      },
+      blog: "https://weibo.com/rc3398",
+      rss: "https://weibo.com/rc3398",
     },
     
   ],
