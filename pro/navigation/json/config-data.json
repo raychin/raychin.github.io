@@ -1,0 +1,30 @@
+[
+    {
+        "classify": "",
+        "href": "",
+        "icon": "",
+        "navigations": [
+            {
+                "name": "",
+                "altContent": "",
+                "description": "",
+                "link": "",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "classify": "测试",
+        "href": "test",
+        "icon": "",
+        "navigations": [
+            {
+                "name": "新浪",
+                "altContent": "sina",
+                "description": "随时随地享受专业资讯服务",
+                "link": "https://www.sina.com.cn/",
+                "icon": "img/sina.png"
+            }
+        ]
+    }
+]
